@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { getEmployees, updateEmployeeStatus, createEmployee } from './api/api'
 import { EmployeeItem } from './types'
-import { EmployeeStatus } from './EmployeeStatus'
+import { EmployeeStatus } from './components/EmployeeStatus'
 import { EmployeesListStyled, CreateEmployeeStyled } from './AppStyled'
 
 const App = () => {

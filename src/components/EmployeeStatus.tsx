@@ -1,6 +1,6 @@
-import { EmployeeStatusProps } from './types'
-import { EmployeeStatusStyled } from './AppStyled'
-import { EMPLOYEE_STATUSES } from './constants'
+import { EmployeeStatusProps } from '../types'
+import { EmployeeStatusStyled } from '../AppStyled'
+import { EMPLOYEE_STATUSES } from '../constants'
 
 export const EmployeeStatus = ({employee, handleChangeEmployeeStatus}: EmployeeStatusProps) => {
     const statusesArray = Object.values(EMPLOYEE_STATUSES)
