@@ -1,0 +1,14 @@
+{
+  "employees": [
+    {
+      "id": "3e3eca87-004b-4e4b-ac11-4a6d12397c0d",
+      "name": "Alice",
+      "status": "added"
+    },
+    {
+      "id": "0ee3e745-4bed-455a-b23c-bb03ed11cb6c",
+      "name": "John",
+      "status": "in-check"
+    }
+  ]
+}
